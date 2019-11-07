@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
-/*import Home from "./components/Home";
+import Home from "./components/Home";
 import FormAddNumber from "./components/AddNumber";
-import FormUpdateContact from "./components/UpdateForm";*/
+/*import FormUpdateContact from "./components/UpdateForm";*/
 import "./App.css";
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <div className="container-app">
         <Switch>
-          {/* <Route exact path="/" render={() => <Home />} />
+          <Route exact path="/" render={() => <Home />} />
           <Route path="/add-new-contact" render={() => <FormAddNumber />} />
-          <Route path="/update-contact/:id" render={() => <FormUpdateContact/> } />
+         {/*  <Route path="/update-contact/:id" render={() => <FormUpdateContact/> } />
          <Route render={() => <NotFound/>} />*/}
         </Switch>
       </div>
