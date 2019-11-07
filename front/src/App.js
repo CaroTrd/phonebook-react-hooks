@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
 import Home from "./components/Home";
 import FormAddNumber from "./components/AddNumber";
-import FormUpdateNumber from "./components/UpdateNumber";
+import FormUpdateNumber from "./components/UpdateForm";
 import NotFound from "./components/NotFound";
 import "./App.css";
 
